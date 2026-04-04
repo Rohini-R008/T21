@@ -79,12 +79,12 @@ $(document).ready(function () {
     var nav = $('.main-nav');
     var icon = $(this).find('ion-icon');
 
-    nav.slideToggle(200);
-
-    if (nav.is(':visible')) {
-        icon.attr("name", "close");
-    } else {
-        icon.attr("name", "menu");
-    }
+    nav.slideToggle(200, function () {
+        if (nav.is(':visible')) {
+            icon.attr("name", "close");
+        } else {
+            icon.attr("name", "menu");
+        }
+    });
 });
 });
