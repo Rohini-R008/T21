@@ -165,9 +165,13 @@ header {
 }
 
 .main-nav {
-  float: right;
-  list-style: none;
-  margin-top: 55px;
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  background-color: rgba(0,0,0,0.8);
+  padding: 15px;
+  border-radius: 5px;
 }
 
 .main-nav li {
