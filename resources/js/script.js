@@ -77,11 +77,11 @@ $(document).ready(function () {
     });
     $('.mobile-nav-icon').click(function () {
     var nav = $('.main-nav');
-    var icon = $('.mobile-nav-icon ion-icon');
+    var icon = $(this).find('ion-icon');
 
     nav.slideToggle(200);
 
-    if (icon.attr("name") === "menu") {
+    if (nav.is(':visible')) {
         icon.attr("name", "close");
     } else {
         icon.attr("name", "menu");
