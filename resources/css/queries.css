@@ -124,6 +124,12 @@
     /* no hamburger hide nav text */
     .main-nav .nav-text {
         display: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
     }
 
     /* no hamburger */
