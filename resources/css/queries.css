@@ -137,7 +137,8 @@
     /* no hamburger */
     .main-nav li {
         display: block;
-        margin-left: 10px 0;
+        margin: 10px 0;
+        text-align: right;
     }
 
     /* no hamburger */
