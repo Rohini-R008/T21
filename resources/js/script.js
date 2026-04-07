@@ -87,4 +87,8 @@ $(document).ready(function () {
         }
     });
 });
+$('.main-nav li a').click(function() {
+    $('.main-nav').slideUp(200);
+    $('.mobile-nav-icon').removeClass('active');
+});
 });
