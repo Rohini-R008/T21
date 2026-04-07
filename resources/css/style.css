@@ -165,8 +165,9 @@ header {
 }
 
 .main-nav {
-  display: none;
-  position: absolute;
+  float: right;
+  list-style: none;
+  margin-top: 55px;
   top: 80px;
   right: 20px;
   background-color: rgba(0,0,0,0.9);
