@@ -10,7 +10,7 @@ body {
   background-color: #fff;
   color: #555;
   font-family: "Lato", "Arial", "san-serif";
-  font-size: 20pz;
+  font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
@@ -176,8 +176,8 @@ nav {
 }
 
 .main-nav li {
-  display: block;
-  margin-left: 10px 0;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 .main-nav li a:link,
