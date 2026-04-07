@@ -124,10 +124,12 @@
     /* no hamburger hide nav text */
     .main-nav {
         display: none;
-        float: right;
-        text-align: right;
-        width: 100%;
-        margin-top: 20px;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        background-color: rgba(0,0,0,0.9);
+        padding: 15px;
+        border-radius: 5px;
     }
 
     .mobile-nav-icon {
